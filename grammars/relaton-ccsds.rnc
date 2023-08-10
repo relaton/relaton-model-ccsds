@@ -5,9 +5,9 @@ BibDataExtensionType =
   doctype,
   editorialgroup?,
   structuredidentifier*,
-  technology-area*
+  technology-area?
 
-DocumentType = "standard" | "practice" | "report" | "specification", "record"
+DocumentType = "standard" | "practice" | "report" | "specification" | "record"
 
 }
 
